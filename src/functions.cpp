@@ -9,8 +9,7 @@ There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find th
 
 namespace func {
     bool is_pythag_triplet(int a, int b, int c) {
-        int temp = (a * a) + (b * b);
-        if (temp == c * c && a < b && b < c) {
+        if ((a * a) + (b * b) == c * c && a < b && b < c) {
             return true;
         } else {
             return false;
