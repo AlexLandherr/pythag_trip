@@ -8,6 +8,8 @@ There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find th
 */
 
 int main() {
+    std::cout << "There exists exactly one Pythagorean triplet for which a + b + c = 1000. The product abc is:" << '\n';
+    std::cout << func::is_pythag_triplet(3, 4, 5) << '\n';
 
     return 0;
 }
